@@ -30,5 +30,6 @@ The main focus includes:
 ### Steps
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/consumer-sentiment-retail-analysis.git
-   cd consumer-sentiment-retail-analysis
+   git clone https://github.com/iintegral/COMP548DL-01-f-2024-Final-Project.git
+   cd COMP548DL-01-f-2024-Final-Project
+   
