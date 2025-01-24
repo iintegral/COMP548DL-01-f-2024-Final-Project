@@ -1,29 +1,34 @@
-# COMP548DL-01-f-2024-Final-Project
-
-# Big Data Consumer Sentiment Analysis
+# Consumer Sentiment and Retail Transaction Analysis
 
 ## Project Overview
-This project analyzes consumer sentiment on Twitter and retail transaction data to uncover patterns in spending habits and purchasing power during inflationary periods. The primary focus is on using MongoDB for data management, Python for data analysis, and visualizations to provide actionable insights.
+This project analyzes consumer sentiment on Twitter alongside retail transaction data to uncover patterns in spending habits. It demonstrates the ingestion, processing, and analysis of big data using Python and MongoDB.
 
-## Key Features
+The main focus includes:
 1. **Sentiment Analysis**:
-   - Conducted on 1.6 million tweets using the TextBlob library to classify tweets into positive, negative, or neutral sentiments.
+   - Performed on 1.6 million tweets to classify sentiments as positive, negative, or neutral using the TextBlob library.
 2. **Retail Transactions**:
-   - Analyzed 525,000+ transactions to examine purchasing trends.
-3. **Combined Insights**:
-   - Attempted to merge sentiment data with transactional data using common dates, though no overlap was found.
-4. **Keyword Trends**:
-   - Identified and visualized trends in spending and purchasing power-related tweets over time.
+   - Explores over 525,000 retail transactions to identify trends in consumer spending patterns.
+3. **Date-Based Linking**:
+   - Attempts to combine Twitter sentiment data with retail transactions using common dates.
 
+## Features
+- **Data Ingestion**:
+  - Both datasets (tweets and transactions) are ingested into MongoDB.
+- **Sentiment Processing**:
+  - Tweets are cleaned and analyzed for sentiment.
+- **Trends Over Time**:
+  - Trends in sentiment and keyword mentions related to spending habits are visualized.
+- **Retail Insights**:
+  - Transaction data is explored for quantity and country-based trends.
 
-## Setup Instructions
+## How to Run
 ### Prerequisites
 - Python 3.x
 - MongoDB
-- Libraries: `pandas`, `nltk`, `matplotlib`, `textblob`, `sklearn`, etc.
+- Libraries: `pandas`, `nltk`, `matplotlib`, `textblob`, etc.
 
 ### Steps
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/big-data-consumer-sentiment.git
-   cd big-data-consumer-sentiment
+   git clone https://github.com/yourusername/consumer-sentiment-retail-analysis.git
+   cd consumer-sentiment-retail-analysis
